@@ -6,8 +6,13 @@
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
+#lezioni .container>.left {
+  padding-top: 50px;
+}
+
+#lezioni .container>.left,
+#lezioni .container>.right {
+  padding-bottom: 50px;
 }
 
 #lezioni .row img {
@@ -22,11 +27,9 @@
 }
 
 /* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
+#steps .container>.left,
+#steps .container>.central {
+  padding-bottom: 50px;
 }
 
 #steps {
